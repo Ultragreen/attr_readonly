@@ -8,10 +8,10 @@ Gem::Specification.new do |spec|
   spec.version       = AttrReadonly::VERSION
   spec.authors       = ["Romain GEORGES"]
   spec.email         = ["romain@ultragreen.net"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Provide a new macro like attr_accessor to make real read_only accessors to frozen dup of the attributs given in parameters}
+  spec.summary       = %q{Provide a new macro like attr_accessor to make real read_only accessors}
   spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.license       = "BSD"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
