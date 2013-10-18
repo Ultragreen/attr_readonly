@@ -11,6 +11,7 @@
 begin 
   require "attr_readonly/version"
 rescue LoadError
+  puts 'debug'
 end
 
 # module Methodic
